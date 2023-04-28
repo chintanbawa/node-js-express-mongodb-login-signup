@@ -1,0 +1,8 @@
+{
+  "name": "node-js-express-mongodb-login-signup",
+  "version": "1.0.0",
+  "description": "Node.js|Express|MongoDB: Login and Sign up  with Mongoose",
+  "main": "index.js",
+  "author": "Chintan Bawa",
+  "license": "MIT"
+}
