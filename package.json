@@ -6,6 +6,7 @@
   "author": "Chintan Bawa",
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon ./src/index.js",
     "lint": "eslint --cache \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\""
   },
@@ -16,6 +17,15 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "yarn run lint:fix"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "eslint": "^8.39.0",
